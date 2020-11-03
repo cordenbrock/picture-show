@@ -12,22 +12,29 @@
 </head>
 <body>
     <div class="container">
+        <br>
         <h1>~Welcome to Hippo Cinema~</h1>
+        <br>
         <div class="row">
             <div class="col-md-6">
                 <form id="form">
-                    <select name="movie" id="movie-select">
-                        <option value="" disabled selected value>-- select an movie --</option>
-                        <option value="">hippos ate my parents</option>
-                        <option value="">honey i hippo'd the kids</option>
-                        <option value="">shakespeare's othippo</option>
-                    </select>
-                    <select name="time" id="time-select">
-                        <option value="" disabled selected value>-- select a time --</option>
-                        <option value="">high noon</option>
-                        <option value="">the witching hour</option>
-                        <option value="">dusk til dawn marathon</option>
-                    </select>
+                    <div class="form-group">
+                        <select name="movie" id="movie-select">
+                            <option value="" disabled selected value>-- select a movie --</option>
+                            <option id="option-one" value="1">hippos ate my parents</option>
+                            <option id="option-two" value="2">honey i hippo'd the kids</option>
+                            <option id="option-three" value="3">shakespeare's othippo</option>
+                        </select>
+                    </div>
+                    <div class=form-group>
+                        <select name="time" id="time-select">
+                            <option value="" disabled selected value>-- select a time --</option>
+                            <option value="">high noon</option>
+                            <option value="">the witching hour</option>
+                            <option value="">dusk 'til dawn marathon</option>
+                        </select>
+                    </div>
+                    <!-- <input type="submit" value="Search for Ticket"> -->
                 </form>
             </div>
         </div>

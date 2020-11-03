@@ -2,3 +2,7 @@ body {
     background: rgba(0, 0, 0, 0.849);
     color: rgba(92, 61, 100, 0.986);
 }
+
+#time-select, #age {
+    display: none;
+}
